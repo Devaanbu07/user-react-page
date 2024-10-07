@@ -1,0 +1,35 @@
+/* Center the page content */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f7; /* Mild background color */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    background-color: #4a90e2; /* Mild button color */
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #357ab9;
+  }
+  
